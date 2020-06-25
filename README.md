@@ -1,30 +1,9 @@
-# hello-express
+# API Project: File Metadata Microservice for freeCodeCamp
 
-A server that serves a webpage, its resources, and some data
+## User stories:
+* I can submit a form that includes a file upload.
+* The form file input field has the "name" attribute set to "upfile". We rely on this in testing.
+* When I submit something, I will receive the **file name** and **size** in bytes within the JSON response
 
-
-## Your Project
-
-On the front-end,
-
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-( ᵔ ᴥ ᵔ )
+## Usage :
+Go to the main page, and upload a file using the provided form.
